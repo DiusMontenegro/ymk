@@ -16,7 +16,7 @@ const Home = () => (
                     <h2>with Advanced Nano⁺ Technology</h2>
                 </div>
                 <Button
-                    className="w-[80px] rounded-sm border border-[#bb9044] text-[#995c2a] hover:bg-[#bb9044] hover:text-[#fafafa]"
+                    className="w-[80px] rounded-sm border border-[#916618] text-[#916618] hover:bg-[#bb9044] hover:text-[#fafafa]"
                     variant="outline">
                     Buy Now
                 </Button>
