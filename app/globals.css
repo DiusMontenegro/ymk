@@ -26,6 +26,10 @@
     background-image: url("/assets/ymk-hero-bg.webp");
 }
 
+.protection-poster {
+    background-image: url("/assets/protection-poster.png");
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;

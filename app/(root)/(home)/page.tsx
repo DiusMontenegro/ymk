@@ -74,7 +74,7 @@ const Home = () => (
         </section>
 
         {/* Quote Section */}
-        <section className="flex-center container relative h-[25dvh] flex-col sm:h-[30dvh] md:h-[35dvh] lg:h-[40dvh]">
+        <section className="flex-center container relative my-1 h-[25dvh] flex-col sm:h-[30dvh] md:h-[35dvh] lg:h-[40dvh]">
             <p className="font-poppins mx-auto text-center text-xs italic leading-relaxed tracking-wider text-[#916618] sm:w-[480px] sm:text-[14px] sm:font-semibold md:w-[615px] md:text-[16px] lg:w-[750px] lg:text-lg lg:leading-7">
                 &quot;Brighten up with YMK Whitening Shots—All-in-One formula powered by
                 Nano-technology + Stem Cells, Niacinamide, Glutathione, SPF 30+++ and Fullerene RS
@@ -96,6 +96,47 @@ const Home = () => (
                 width={200}
                 height={200}
             />
+        </section>
+
+        {/* Feature Section - Protection and Defense */}
+        <section className="relative h-[80vh] lg:h-[91vh]">
+            <div className="absolute left-0 top-0 h-1/2 w-full bg-[#ffd6d8]"></div>
+            <div className="absolute bottom-0 left-0 h-1/2 w-full bg-[#fafafa]"></div>
+            <div className="flex-center container relative mx-auto h-full">
+                <h3 className="font-bodoni-moda absolute left-0 top-0 text-[80px] font-bold leading-none text-white lg:text-[230px]">
+                    YMK
+                </h3>
+                <h3 className="font-bodoni-moda absolute bottom-0 right-0 text-[80px] font-bold leading-none text-black opacity-10 lg:text-[230px]">
+                    YMK
+                </h3>
+                {/* TODO: design md viewport 768x1024 */}
+                <div className="z-10 flex h-[480px] w-[270px] flex-col bg-[#fafafa] text-[#916618] shadow-lg md:flex-row-reverse">
+                    {/* <--- EDIT HERE ---> */}
+                    <Image
+                        className="h-1/2 flex-1 object-cover object-top"
+                        src="/assets/protection-poster.webp"
+                        alt="skin-protection-poster"
+                        width={2000}
+                        height={2000}
+                    />
+                    <div className="flex-1 px-4 py-6 text-center">
+                        <h4 className="font-bodoni-moda mb-3 text-xl font-semibold tracking-wider">
+                            Protection & Defense
+                        </h4>
+                        <p className="font-roboto mb-6 text-[12px]">
+                            SPF 30+++ and Fullerene RS Vitamin C offers comprehensive protection
+                            against environmental damage and aging. SPF 30+++ shields the skin from
+                            UVA and UVB rays, preventing sun damage and premature aging.{" "}
+                        </p>
+                        <Button
+                            size="sm"
+                            className="mx-auto h-[30px] w-[65px] rounded-sm border border-[#916618] text-[#916618] hover:bg-[#bb9044] hover:text-[#fafafa]"
+                            variant="outline">
+                            Buy Now
+                        </Button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 );
