@@ -30,6 +30,25 @@
     background-image: url("/assets/protection-poster.png");
 }
 
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #916618;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #916618;
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;
