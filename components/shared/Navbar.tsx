@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <nav className="font-roboto bg-[#332219] py-1 text-[12px] font-semibold text-[#f0da88]">
+        <nav className="font-roboto bg-[#332219] py-2 text-[12px] font-semibold text-[#f0da88]">
             {/* Mobile Navigation */}
             <div className="container flex items-center justify-between sm:hidden">
                 <Image src="/assets/ymk-logo.webp" alt="ymk-logo" width={50} height={50} />
