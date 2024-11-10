@@ -15,7 +15,7 @@ const SkinProtection = () => {
                 <h3 className="font-bodoni-moda absolute bottom-0 right-0 text-[80px] font-bold leading-none text-black opacity-10 md:text-[180px] lg:text-[230px]">
                     YMK
                 </h3>
-                <div className="z-10 flex h-[480px] w-[270px] flex-col bg-[#fafafa] text-[#916618] shadow-lg md:h-[350px] md:w-[600px] md:flex-row-reverse">
+                <div className="z-10 flex h-[480px] w-[270px] flex-col bg-[#fafafa] text-[#916618] shadow-lg md:h-[350px] md:w-[600px] md:flex-row-reverse lg:h-[450px] lg:w-[900px]">
                     <Image
                         className="h-1/2 flex-1 object-cover object-top md:h-full md:w-1/2 md:object-cover md:object-right"
                         src="/assets/protection-poster.webp"
@@ -23,11 +23,11 @@ const SkinProtection = () => {
                         width={2000}
                         height={2000}
                     />
-                    <div className="flex-1 px-4 py-6 text-center">
-                        <h4 className="font-bodoni-moda mb-3 text-xl font-semibold tracking-wider md:text-3xl">
+                    <div className="flex-1 px-4 py-6 text-center lg:px-8 lg:py-20 lg:text-start">
+                        <h4 className="font-bodoni-moda mb-3 text-xl font-semibold tracking-wider md:text-3xl lg:mb-[25px] lg:text-[34px]">
                             Protection & Defense
                         </h4>
-                        <p className="font-roboto mb-6 text-[12px] md:px-3 md:text-justify md:text-[14px] md:tracking-normal">
+                        <p className="font-roboto mb-6 text-[12px] md:px-3 md:text-justify md:text-[14px] md:tracking-normal lg:mb-12 lg:p-0 lg:text-start lg:text-[16px] lg:font-light lg:tracking-wider">
                             SPF 30+++ and Fullerene RS Vitamin C offers comprehensive protection
                             against environmental damage and aging. SPF 30+++ shields the skin from
                             UVA and UVB rays, preventing sun damage and premature aging.
