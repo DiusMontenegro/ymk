@@ -110,7 +110,6 @@ const Home = () => (
                     YMK
                 </h3>
                 <div className="z-10 flex h-[480px] w-[270px] flex-col bg-[#fafafa] text-[#916618] shadow-lg md:h-[350px] md:w-[600px] md:flex-row-reverse">
-                    {/* <--- EDIT HERE ---> */}
                     <Image
                         className="h-1/2 flex-1 object-cover object-top md:h-full md:w-1/2 md:object-cover md:object-right"
                         src="/assets/protection-poster.webp"
