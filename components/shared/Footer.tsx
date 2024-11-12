@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const Footer = () => {
     return (
         <footer className="font-poppins bg-[#332219] py-4 text-[16px] text-[#f0da88]">
-            <div className="container flex h-full flex-col gap-3 md:gap-6 lg:px-0">
+            <div className="container flex h-full flex-col gap-3 md:gap-6">
                 <div className="flex flex-1 flex-col md:flex-row md:gap-1">
                     <div className="flex w-[180px] flex-col">
                         <Image
