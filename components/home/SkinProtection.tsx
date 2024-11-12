@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 const SkinProtection = () => {
     return (
-        <section className="relative h-[80vh] md:h-[50vh] lg:h-[91vh]">
+        <section className="relative mb-16 h-[80vh] md:h-[50vh] lg:h-[91vh]">
             <div className="absolute left-0 top-0 h-1/2 w-full bg-[#ffd6d8]"></div>
             <div className="absolute bottom-0 left-0 h-1/2 w-full bg-[#fafafa]"></div>
             <div className="flex-center container relative mx-auto h-full">
