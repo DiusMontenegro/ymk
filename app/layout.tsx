@@ -5,6 +5,7 @@ import "./globals.css";
 import React from "react";
 
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -43,6 +44,8 @@ export default function RootLayout({
                 </header>
 
                 {children}
+
+                <Footer />
             </body>
         </html>
     );
