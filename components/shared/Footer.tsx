@@ -24,7 +24,7 @@ const Footer = () => {
                         <ul className="flex items-center justify-start gap-2">
                             <li>
                                 <Image
-                                    src="/assets/messenger-icon.png"
+                                    src="/assets/messenger-icon.webp"
                                     alt="facebook-messenger-icon"
                                     width={24}
                                     height={24}
@@ -33,7 +33,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Image
-                                    src="/assets/facebook-icon.png"
+                                    src="/assets/facebook-icon.webp"
                                     alt="facebook-icon"
                                     width={24}
                                     height={24}
@@ -42,7 +42,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <Image
-                                    src="/assets/linkedin-icon.png"
+                                    src="/assets/linkedin-icon.webp"
                                     alt="linkedin-icon"
                                     width={24}
                                     height={24}
