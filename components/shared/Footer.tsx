@@ -53,7 +53,7 @@ const Footer = () => {
                     </div>
                     <div className="flex items-start justify-between gap-6 py-3 md:w-[180px] md:flex-col md:py-4">
                         <div className="flex flex-1 flex-col gap-2">
-                            <h5 className="text-[18px] font-semibold">Quick Links</h5>
+                            <h2 className="text-[18px] font-semibold">Quick Links</h2>
                             <ul className="flex flex-col gap-1 text-[14px]">
                                 <li>About</li>
                                 <li>Product Details</li>
@@ -62,7 +62,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="flex flex-1 flex-col gap-2">
-                            <h5 className="text-[18px] font-semibold">Delivery</h5>
+                            <h3 className="text-[18px] font-semibold">Delivery</h3>
                             <ul className="flex flex-col gap-1 text-[14px]">
                                 <li>How It Works</li>
                                 <li>FAQ</li>
@@ -71,16 +71,16 @@ const Footer = () => {
                     </div>
                     <div className="flex w-[180px] flex-col items-start gap-2 py-3 md:py-4">
                         <div>
-                            <h5 className="text-[18px] font-semibold">Monday - Friday</h5>
+                            <h4 className="text-[18px] font-semibold">Monday - Friday</h4>
                             <p className="text-[14px]">8am - 5pm PST</p>
                         </div>
                         <div>
-                            <h5 className="text-[18px] font-semibold">Saturday</h5>
+                            <h4 className="text-[18px] font-semibold">Saturday</h4>
                             <p className="text-[14px]">9am - 4pm PST</p>
                         </div>
                     </div>
                     <div className="flex w-[180px] flex-col items-start gap-2 py-3 md:py-4">
-                        <h5 className="text-[18px] font-semibold">Need Help?</h5>
+                        <h3 className="text-[18px] font-semibold">Need Help?</h3>
                         <ul className="flex flex-col gap-1 text-[14px]">
                             <li>(+63) 123- 456 - 7890</li>
                             <li className="md:hidden lg:block">yui_melinda_kenji@email.com</li>

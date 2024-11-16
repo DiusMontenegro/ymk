@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { navLinks } from "@/constants";
+import { v4 as uuidv4 } from "uuid";
 
 import { Menu } from "lucide-react";
 import { Sheet, SheetClose, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
@@ -30,7 +31,7 @@ const Navbar = () => {
                         </SheetTitle>
                         <ul className="flex flex-col gap-2">
                             {navLinks.map((link) => (
-                                <li key={link.label}>
+                                <li key={uuidv4()}>
                                     <SheetClose asChild>
                                         <Link href={link.href}>{link.label}</Link>
                                     </SheetClose>
@@ -44,7 +45,7 @@ const Navbar = () => {
             {/* Desktop Navigation */}
             <ul className="container flex items-center justify-between text-[14px] max-sm:hidden sm:font-light lg:font-normal">
                 {navLinks.slice(0, 2).map((link) => (
-                    <li key={link.label}>
+                    <li key={uuidv4()}>
                         <Link
                             href={link.href}
                             className="rounded border border-transparent px-3 py-1.5 hover:border-[#fafafa] hover:text-[#fafafa]">
@@ -64,7 +65,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 {navLinks.slice(2).map((link) => (
-                    <li key={link.label}>
+                    <li key={uuidv4()}>
                         <Link
                             href={link.href}
                             className="rounded border border-transparent px-3 py-1.5 hover:border-[#fafafa] hover:text-[#fafafa]">

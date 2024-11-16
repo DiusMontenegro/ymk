@@ -30,6 +30,18 @@
     background-image: url("/assets/protection-poster.png");
 }
 
+.text-gold {
+    @apply text-[#916618];
+}
+
+.bg-brown {
+    @apply bg-[#332219];
+}
+
+.bg-pink {
+    @apply bg-[#ffd6d8];
+}
+
 ::-webkit-scrollbar {
     width: 3px;
     height: 3px;
