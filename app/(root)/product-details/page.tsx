@@ -69,7 +69,7 @@ const ProductDetailsPage = () => {
                             </h2>
                         </div>
                         <div className="mb-1 flex items-center justify-start">
-                            <Image src="/assets/dot.png" alt="bullet" width={32} height={32} />
+                            <Image src="/assets/dot.webp" alt="bullet" width={32} height={32} />
                             <h3 className="text-[12px]">Hurry! Limited Stocks Only</h3>
                         </div>
                         <div className="mb-2 flex items-center justify-start gap-2">

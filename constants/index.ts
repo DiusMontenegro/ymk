@@ -8,19 +8,19 @@ export const navLinks = [
 
 export const features = [
     {
-        imgSrc: "/assets/droplets.png",
+        imgSrc: "/assets/droplets.webp",
         title: "Deep Hydration and Enhanced Skin Moisture",
     },
     {
-        imgSrc: "/assets/microscope.png",
+        imgSrc: "/assets/microscope.webp",
         title: "Advanced Nano⁺ Technology",
     },
     {
-        imgSrc: "/assets/sprout.png",
+        imgSrc: "/assets/sprout.webp",
         title: "Stem Cells for Youthful Skin with Anti-Aging",
     },
     {
-        imgSrc: "/assets/shield-plus.png",
+        imgSrc: "/assets/shield-plus.webp",
         title: "Protects Your Skin from UV Rays",
     },
 ];
@@ -28,7 +28,7 @@ export const features = [
 export const reviews = [
     {
         name: "Emerlita Tampos",
-        image: "/assets/emerlita.jpg",
+        image: "/assets/emerlita.webp",
         location: "Kobe, Japan",
         title: "Radiant Skin, Every Day!",
         description:
@@ -36,7 +36,7 @@ export const reviews = [
     },
     {
         name: "Rea Revilleza",
-        image: "/assets/rea.jpg",
+        image: "/assets/rea.webp",
         location: "Pres. Roxas, Philippines",
         title: "Game-Changer for My Skin!",
         description:
@@ -44,7 +44,7 @@ export const reviews = [
     },
     {
         name: "Jenny Morimoto",
-        image: "/assets/jenny.png",
+        image: "/assets/jenny.webp",
         location: "Kobe, Japan",
         title: "Awesome Product",
         description:

@@ -16,7 +16,7 @@ const ReviewCard = ({ name, image, title, location, description }: Props) => {
         <li className="font-roboto relative flex h-[320px] w-[280px] flex-col items-start rounded-lg border border-[#916618] p-6 shadow-lg">
             <Image
                 className="absolute -top-5 right-4"
-                src="/assets/quote.svg"
+                src="/assets/quote.webp"
                 alt="quote"
                 width={45}
                 height={45}
