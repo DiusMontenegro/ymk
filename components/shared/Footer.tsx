@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
     return (
         <footer className="font-poppins bg-[#332219] py-4 text-[16px] text-[#f0da88]">
@@ -87,7 +89,9 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <span>&copy; 2024 YMK ビューティー | All Rights Reserved | Powered by NEXTJS</span>
+                <span>
+                    &copy; {currentYear} YMK ビューティー | All Rights Reserved | Powered by NEXTJS
+                </span>
             </div>
         </footer>
     );

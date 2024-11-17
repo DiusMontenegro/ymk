@@ -2,7 +2,7 @@
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/product-details", label: "Product Details" },
-    { href: "/", label: "About" },
+    { href: "/about-us", label: "About" },
     { href: "/", label: "Where to Buy" },
 ];
 
@@ -72,5 +72,15 @@ export const faq = [
         id: 4,
         question: "Does it leave a greasy feeling on the skin?",
         answer: "No, this lotion is designed to absorb quickly without leaving a greasy residue, thanks to its lightweight, non-comedogenic formulation..",
+    },
+];
+
+export const team = [
+    { image: "/assets/kenji.webp", name: "Kenji Sakai", position: "Co-Founder" },
+    { image: "/assets/melinda.webp", name: "Melinda Sakai", position: "CEO, Founder" },
+    {
+        image: "/assets/dius.webp",
+        name: "Dius Montenegro",
+        position: "Web Developer",
     },
 ];
