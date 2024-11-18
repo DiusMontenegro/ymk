@@ -78,7 +78,7 @@ const ProductDetailsPage = () => {
                         </div>
                         <div className="my-3">
                             <Link
-                                href="/"
+                                href="/where-to-buy"
                                 className="block w-[120px] rounded-full bg-[#916618] p-1 px-2 text-center font-semibold text-[#fafafa]">
                                 Buy Now
                             </Link>

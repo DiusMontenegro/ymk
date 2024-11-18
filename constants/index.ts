@@ -78,7 +78,6 @@ export const faq = [
 ];
 
 export const team = [
-    { image: "/assets/kenji.webp", name: "Kenji Sakai", position: "Co-Founder" },
     { image: "/assets/melinda.webp", name: "Melinda Sakai", position: "CEO, Founder" },
     {
         image: "/assets/dius.webp",
