@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
+import { quickLinks } from "@/constants";
+import Link from "next/link";
 
 const currentYear = new Date().getFullYear();
 
@@ -18,11 +20,13 @@ const Footer = () => {
                             className="mb-2"
                         />
                         <span className="mb-4 text-[16px]">Unveiling Your Most Radiant Self.</span>
-                        <Button
-                            variant="outline"
-                            className="mb-5 w-[100px] rounded-sm border-[#f0da88] bg-transparent text-[14px] hover:border-white hover:bg-transparent hover:text-white">
-                            Contact Us
-                        </Button>
+                        <Link href="mailto:test.email@gmail.com">
+                            <Button
+                                variant="outline"
+                                className="mb-5 w-[100px] rounded-sm border-[#f0da88] bg-transparent text-[14px] hover:border-white hover:bg-transparent hover:text-white">
+                                Contact Us
+                            </Button>
+                        </Link>
                         <ul className="flex items-center justify-start gap-2">
                             <li>
                                 <Image
@@ -57,17 +61,22 @@ const Footer = () => {
                         <div className="flex flex-1 flex-col gap-2">
                             <h2 className="text-[18px] font-semibold">Quick Links</h2>
                             <ul className="flex flex-col gap-1 text-[14px]">
-                                <li>About</li>
-                                <li>Product Details</li>
-                                <li>Contact Us</li>
-                                <li>Where to Buy</li>
+                                {quickLinks.map(({ name, url }) => (
+                                    <li key={name}>
+                                        <Link href={url}>{name}</Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div className="flex flex-1 flex-col gap-2">
                             <h3 className="text-[18px] font-semibold">Delivery</h3>
                             <ul className="flex flex-col gap-1 text-[14px]">
-                                <li>How It Works</li>
-                                <li>FAQ</li>
+                                <li>
+                                    <Link href="/where-to-buy/#how-it-works">How it Works</Link>
+                                </li>
+                                <li>
+                                    <Link href="/product-details/#faq">FAQ</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>

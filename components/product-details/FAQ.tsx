@@ -10,7 +10,7 @@ import {
 
 const FAQ = () => {
     return (
-        <div className="text-gold font-roboto container mb-10">
+        <div id="faq" className="text-gold font-roboto container mb-10">
             <h2 className="mb-2 text-3xl font-semibold">
                 FAQ <span className="text-[24px] font-normal">(Frequently asked questions)</span>
             </h2>

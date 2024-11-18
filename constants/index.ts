@@ -1,9 +1,11 @@
+import { Search, MessageCircle, CreditCard, CheckCircle, Truck } from "lucide-react";
+
 // Navlinks
 export const navLinks = [
     { href: "/", label: "Home" },
     { href: "/product-details", label: "Product Details" },
     { href: "/about-us", label: "About" },
-    { href: "/", label: "Where to Buy" },
+    { href: "/where-to-buy", label: "Where to Buy" },
 ];
 
 export const features = [
@@ -83,4 +85,46 @@ export const team = [
         name: "Dius Montenegro",
         position: "Web Developer",
     },
+];
+
+export const steps = [
+    { icon: Search, text: "Find a nearby seller" },
+    { icon: MessageCircle, text: "Contact the seller via phone or messenger" },
+    { icon: CreditCard, text: "Complete the payment" },
+    { icon: CheckCircle, text: "Confirm that the delivery has been sent" },
+    { icon: Truck, text: "Wait for the delivery" },
+];
+
+export const sellers = [
+    {
+        image: "/assets/sta-cruz.webp",
+        location: "Sta. Cruz, Davao Del Sur",
+        contactNumber: "+(63) 123-456-7890",
+        personName: "Ana Liza Montenegro",
+    },
+    {
+        image: "/assets/president-roxas.webp",
+        location: "Pres. Roxas, North Cotabato",
+        contactNumber: "+(63) 970-250-7447",
+        personName: "Reyna Revilleza",
+    },
+    {
+        image: "/assets/makilala.webp",
+        location: "Makilala, North Cotabato",
+        contactNumber: "+(63) 123-456-7890",
+        personName: "April Jade Dapan",
+    },
+    {
+        image: "/assets/kidapawan.webp",
+        location: "Kidapawan, North Cotabato",
+        contactNumber: "+(63) 123-456-7890",
+        personName: "Ej tristan Bedia",
+    },
+];
+
+export const quickLinks = [
+    { name: "About Us", url: "/about-us" },
+    { name: "Product Details", url: "/product-details" },
+    { name: "Contact Us", url: "/where-to-buy/#contact-us" },
+    { name: "Where to Buy", url: "/where-to-buy" },
 ];
