@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { Metadata } from "next";
+import { team } from "@/constants";
 
 import {
     Breadcrumb,
@@ -9,7 +11,10 @@ import {
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import MemberCard from "@/components/about-us/MemberCard";
-import { team } from "@/constants";
+
+export const metadata: Metadata = {
+    title: "About Us",
+};
 
 const AboutUs = () => {
     return (

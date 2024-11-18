@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { features, reviews } from "@/constants";
 import { v4 as uuidv4 } from "uuid";
+import { Metadata } from "next";
 
 import {
     Breadcrumb,
@@ -14,6 +15,10 @@ import Card from "@/components/product-details/Card";
 import Link from "next/link";
 import ReviewCard from "@/components/product-details/ReviewCard";
 import FAQ from "@/components/product-details/FAQ";
+
+export const metadata: Metadata = {
+    title: "Product Details",
+};
 
 const ProductDetailsPage = () => {
     return (

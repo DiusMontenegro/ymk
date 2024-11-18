@@ -1,7 +1,10 @@
 import React from "react";
+import Link from "next/link";
+import { Metadata } from "next";
+import { sellers, steps } from "@/constants";
+
 import { Button } from "@/components/ui/button";
 import { AlertCircle } from "lucide-react";
-import { sellers, steps } from "@/constants";
 import SellerCard from "@/components/where-to-buy/SellerCard";
 import {
     Breadcrumb,
@@ -10,7 +13,10 @@ import {
     BreadcrumbLink,
     BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import Link from "next/link";
+
+export const metadata: Metadata = {
+    title: "Where to Buy",
+};
 
 export default function WhereToBuy() {
     return (
