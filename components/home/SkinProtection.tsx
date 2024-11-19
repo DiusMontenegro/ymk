@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 const SkinProtection = () => {
     return (
@@ -32,12 +33,14 @@ const SkinProtection = () => {
                             against environmental damage and aging. SPF 30+++ shields the skin from
                             UVA and UVB rays, preventing sun damage and premature aging.
                         </p>
-                        <Button
-                            size="sm"
-                            className="mx-auto h-[30px] w-[75px] rounded-sm border border-[#916618] font-semibold text-[#916618] hover:bg-[#bb9044] hover:text-[#fafafa] md:h-[35px] md:w-[85px] md:text-[14px]"
-                            variant="outline">
-                            Read More
-                        </Button>
+                        <Link href="/product-details">
+                            <Button
+                                size="sm"
+                                className="mx-auto h-[30px] w-[75px] rounded-sm border border-[#916618] font-semibold text-[#916618] hover:bg-[#bb9044] hover:text-[#fafafa] md:h-[35px] md:w-[85px] md:text-[14px]"
+                                variant="outline">
+                                Read More
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>

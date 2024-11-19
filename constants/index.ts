@@ -29,8 +29,8 @@ export const features = [
 
 export const reviews = [
     {
-        name: "Emerlita Tampos",
-        image: "/assets/emerlita.webp",
+        name: "Ina Hidalgo",
+        image: "/assets/ina.webp",
         location: "Kobe, Japan",
         title: "Radiant Skin, Every Day!",
         description:

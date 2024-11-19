@@ -74,7 +74,7 @@ export default function WhereToBuy() {
                 <Button
                     className="border border-transparent bg-[#916618] text-[#fafafa] hover:border-[#916618] hover:bg-transparent hover:text-[#916618]"
                     asChild>
-                    <Link href="mailto:test@email.com">Email Us</Link>
+                    <Link href="mailto:melinda_.0102@icloud.com">Email Us</Link>
                 </Button>
             </section>
 

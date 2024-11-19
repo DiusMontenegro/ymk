@@ -20,7 +20,7 @@ const Footer = () => {
                             className="mb-2"
                         />
                         <span className="mb-4 text-[16px]">Unveiling Your Most Radiant Self.</span>
-                        <Link href="mailto:test.email@gmail.com">
+                        <Link href="mailto:melinda_.0102@icloud.com">
                             <Button
                                 variant="outline"
                                 className="mb-5 w-[100px] rounded-sm border-[#f0da88] bg-transparent text-[14px] hover:border-white hover:bg-transparent hover:text-white">
@@ -93,8 +93,8 @@ const Footer = () => {
                     <div className="flex w-[180px] flex-col items-start gap-2 py-3 md:py-4">
                         <h3 className="text-[18px] font-semibold">Need Help?</h3>
                         <ul className="flex flex-col gap-1 text-[14px]">
-                            <li>(+63) 123- 456 - 7890</li>
-                            <li className="md:hidden lg:block">yui_melinda_kenji@email.com</li>
+                            <li>(+81) 080-3824-3485</li>
+                            <li className="md:hidden lg:block">melinda_.0102@icloud.com</li>
                         </ul>
                     </div>
                 </div>
