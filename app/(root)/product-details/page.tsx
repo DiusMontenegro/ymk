@@ -67,8 +67,8 @@ const ProductDetailsPage = () => {
                             </div>
                         </div>
                         <div className="mb-3 flex items-center justify-start gap-3">
-                            <h2>₱ 299.00</h2>
-                            <h2 className="line-through">₱ 599.00</h2>
+                            {/* <h2>₱ 299.00</h2>
+                            <h2 className="line-through">₱ 599.00</h2> */}
                             <h2 className="bg-[#e61e3e] px-2 py-0.5 text-[14px] text-white">
                                 Sale · Save up to 50%
                             </h2>
