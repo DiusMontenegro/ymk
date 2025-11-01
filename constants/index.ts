@@ -136,8 +136,8 @@ export const ymkBottle = [
             "/assets/Experience.webp",
             "/assets/howtouse.webp",
             "/assets/beforeAndAfter.webp",
-            "/assets/sunProtection.webp",
             "/assets/ymkingredients.webp",
+            "/assets/sunProtection.webp",
         ],
     },
 ];
