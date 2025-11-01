@@ -84,7 +84,7 @@ const AboutUs = () => {
                     A passionate group dedicated to bringing you innovative skincare solutions with
                     care and expertise.
                 </p>
-                <div className="mx-auto grid grid-cols-1 gap-4 md:w-[500px] md:grid-cols-2 lg:w-[650px]">
+                <div className="mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                     {team.map(({ name, position, image }) => (
                         <MemberCard key={name} name={name} position={position} image={image} />
                     ))}

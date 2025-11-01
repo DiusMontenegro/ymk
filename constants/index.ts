@@ -79,6 +79,7 @@ export const faq = [
 
 export const team = [
     { image: "/assets/melinda.webp", name: "Melinda Sakai", position: "CEO, Founder" },
+    { image: "/assets/aprilJade.webp", name: "April Jade", position: "Sales Manager" },
     {
         image: "/assets/dius.webp",
         name: "Dius Montenegro",
@@ -96,28 +97,25 @@ export const steps = [
 
 export const sellers = [
     {
-        image: "/assets/sta-cruz.webp",
-        location: "Sta. Cruz, Davao Del Sur",
-        contactNumber: "+(63) 123-456-7890",
-        personName: "Ana Liza Montenegro",
-    },
-    {
-        image: "/assets/president-roxas.webp",
-        location: "Pres. Roxas, North Cotabato",
-        contactNumber: "+(63) 970-250-7447",
-        personName: "Reyna Revilleza",
+        image: "/assets/japan.webp",
+        location: "Hyogo Ken, Japan",
+        contactNumber: "+(81) 803-824-3485",
+        personName: "Kei Memon",
+        fbProfile: "melinda.sakai.5",
     },
     {
         image: "/assets/makilala.webp",
         location: "Makilala, North Cotabato",
-        contactNumber: "+(63) 123-456-7890",
-        personName: "April Jade Dapan",
+        contactNumber: "+(63) 938-248-4424",
+        personName: "April Jade",
+        fbProfile: "ajdlovedismael",
     },
     {
         image: "/assets/kidapawan.webp",
         location: "Kidapawan, North Cotabato",
-        contactNumber: "+(63) 123-456-7890",
-        personName: "Ej tristan Bedia",
+        contactNumber: "+(63) 970-460-7775",
+        personName: "Ares Montenegro",
+        fbProfile: "Dreaultimate",
     },
 ];
 
@@ -126,4 +124,20 @@ export const quickLinks = [
     { name: "Product Details", url: "/product-details" },
     { name: "Contact Us", url: "/where-to-buy/#contact-us" },
     { name: "Where to Buy", url: "/where-to-buy" },
+];
+
+export const ymkBottle = [
+    {
+        id: 1,
+        name: "YMK All In One Lotion",
+        images: [
+            "/assets/ymkFeature1.webp",
+            "/assets/ymk2.webp",
+            "/assets/Experience.webp",
+            "/assets/howtouse.webp",
+            "/assets/beforeAndAfter.webp",
+            "/assets/sunProtection.webp",
+            "/assets/ingredients.webp",
+        ],
+    },
 ];

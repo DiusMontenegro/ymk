@@ -41,7 +41,7 @@ export default function WhereToBuy() {
             <h1 className="mb-8 text-center text-4xl font-semibold">Where to Buy</h1>
 
             <section className="mb-12">
-                <h2 className="mb-4 text-2xl font-semibold">Our Sellers</h2>
+                <h2 className="mb-4 text-2xl font-semibold">Our Trusted Sellers</h2>
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
                     {sellers.map((seller, index) => (
                         <SellerCard key={index} {...seller} />

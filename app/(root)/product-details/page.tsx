@@ -15,6 +15,7 @@ import Card from "@/components/product-details/Card";
 import Link from "next/link";
 import ReviewCard from "@/components/product-details/ReviewCard";
 import FAQ from "@/components/product-details/FAQ";
+import ProductCarousel from "@/components/product-details/ProductCarousel";
 
 export const metadata: Metadata = {
     title: "Product Details",
@@ -42,15 +43,9 @@ const ProductDetailsPage = () => {
                     </BreadcrumbList>
                 </Breadcrumb>
 
-                <div className="mb-[20px] flex flex-col lg:flex-row">
-                    <div className="relative flex-1">
-                        <Image
-                            className="left-3 top-0 mt-8 lg:absolute lg:mt-0 lg:w-[500px] xl:left-0 xl:top-2 xl:w-[900px]"
-                            src="/assets/ymk-bottle.webp"
-                            alt="ymk-bottle"
-                            width={900}
-                            height={900}
-                        />
+                <div className="mb-[20px] flex flex-col gap-3 lg:flex-row">
+                    <div className="relative flex-1 flex-col">
+                        <ProductCarousel />
                     </div>
                     <div className="text-gold flex-1 p-2 pb-0 lg:py-4">
                         <div className="font-bodoni-moda mb-4 text-[24px] font-semibold lg:text-[31.2px]">
@@ -59,17 +54,19 @@ const ProductDetailsPage = () => {
                                 30+++, Fullerene R.S. Vitamin C.
                             </h1>
 
-                            <div className="max-lg:hidden">
+                            <div className="text-3xl max-lg:hidden">
                                 <h1>All In One Whitening Shots</h1>
                                 <h1>Facial Lotion - Nano⁺ Stem Cells</h1>
                                 <h1>+ SPF 30+++, Fullerene R.S.</h1>
                                 <h1>Vitamin C.</h1>
                             </div>
                         </div>
-                        <div className="mb-3 flex items-center justify-start gap-3">
-                            {/* <h2>₱ 299.00</h2>
-                            <h2 className="line-through">₱ 599.00</h2> */}
-                            <h2 className="bg-[#e61e3e] px-2 py-0.5 text-[14px] text-white">
+                        <div className="mb-3 flex flex-col justify-start gap-3 sm:flex-row sm:items-center">
+                            <div className="flex gap-2">
+                                <h2>₱ 349.00</h2>
+                                <h2 className="line-through">₱ 699.00</h2>
+                            </div>
+                            <h2 className="max-w-[153px] bg-[#e61e3e] px-2 py-0.5 text-center text-[14px] text-white">
                                 Sale · Save up to 50%
                             </h2>
                         </div>
