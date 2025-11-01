@@ -66,7 +66,7 @@ const ProductDetailsPage = () => {
                                 <h2>₱ 349.00</h2>
                                 <h2 className="line-through">₱ 699.00</h2>
                             </div>
-                            <h2 className="max-w-[153px] bg-[#e61e3e] px-2 py-0.5 text-center text-[14px] text-white">
+                            <h2 className="max-w-[160px] bg-[#e61e3e] px-2 py-0.5 text-center text-[14px] text-white">
                                 Sale · Save up to 50%
                             </h2>
                         </div>
