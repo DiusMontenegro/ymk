@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
     return (
@@ -16,9 +17,10 @@ const Hero = () => {
                     <h2>with Advanced Nano⁺ Technology</h2>
                 </div>
                 <Button
+                    asChild
                     className="w-[80px] rounded-sm border border-[#916618] text-[#916618] hover:bg-[#bb9044] hover:text-[#fafafa]"
                     variant="outline">
-                    Buy Now
+                    <Link href={"/where-to-buy"}>Buy Now</Link>
                 </Button>
             </div>
             <section className="flex-center">
@@ -41,9 +43,10 @@ const Hero = () => {
                     <h2>with Advanced Nano⁺ Technology</h2>
                 </div>
                 <Button
+                    asChild
                     className="mx-auto w-[80px] rounded-sm border border-[#916618] text-[#916618] hover:bg-[#bb9044] hover:text-[#fafafa]"
                     variant="outline">
-                    Buy Now
+                    <Link href={"/where-to-buy"}>Buy Now</Link>
                 </Button>
             </div>
             <div className="text-[#bb9044] sm:col-span-2 lg:col-span-1">
