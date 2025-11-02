@@ -12,7 +12,9 @@ const Navbar = () => {
         <nav className="font-roboto bg-[#332219] py-2 text-[12px] font-semibold text-[#f0da88]">
             {/* Mobile Navigation */}
             <div className="container flex items-center justify-between sm:hidden">
-                <Image src="/assets/ymk-logo.webp" alt="ymk-logo" width={50} height={50} />
+                <Link href="/">
+                    <Image src="/assets/ymk-logo.webp" alt="ymk-logo" width={50} height={50} />
+                </Link>
 
                 <Sheet>
                     <SheetTrigger aria-label="Open navigation menu">
