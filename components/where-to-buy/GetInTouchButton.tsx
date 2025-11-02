@@ -12,13 +12,12 @@ const GetInTouchButton = ({ fbProfile }: GetInTouchButtonProps) => {
         const messengerUrl = `https://m.me/${fbProfile}?text=${message}`;
         const fbProfileUrl = `https://www.facebook.com/${fbProfile}`;
 
-        const newWindow = window.open(messengerUrl, "_blank");
+        // try messenger first
+        window.location.href = messengerUrl;
 
-        // fallback if Messenger link fails
+        // fallback if messenger link fails
         setTimeout(() => {
-            if (!newWindow || newWindow.closed || typeof newWindow.closed === "undefined") {
-                window.open(fbProfileUrl, "_blank");
-            }
+            window.location.href = fbProfileUrl;
         }, 1500);
     };
 
